@@ -1,0 +1,21 @@
+body {
+  background-color: #fdec6e;
+}
+
+
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+
+h1:hover {
+
+
+color: #fff;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+	
+}

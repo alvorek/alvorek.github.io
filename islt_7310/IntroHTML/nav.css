@@ -2,15 +2,19 @@
   margin: 5px 5px 5px 5px;
   padding: 10px 10px;
   border-style: solid;
-  color: navy;
+  color: #ffbf00;
   margin-left: 20px;
-  text-align: center;
+  text-align: right;
 }
 
 .nav > li {
 	display: inline-block;
-	border-style: solid;
-	color: green;
+	color: gold;
+	font-size: 18px;
+	padding: 8px;
+	margin-right: 20px;
+	font-family: georgia;
+	color: #f2ff00;
 }
 
 
@@ -54,3 +58,16 @@
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+
+.footer {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px;
+  border-style: solid;
+  color: black;
+  margin-left: 1px;
+  text-align: left;
+}

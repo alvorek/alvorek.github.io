@@ -1,16 +1,17 @@
 body {
-  background-color: #fdec6e;
+  background-color: #aab5aa;
 }
 
 
 
-h1 {
-  color: navy;
-  margin-left: 20px;
+.Opener {
+  color: #f2ff00;
+  text-align: center;
+  font-size: 30px;
 }
 
 
-h1:hover {
+.Opener:hover {
 
 
 color: #fff;
@@ -18,4 +19,11 @@ color: #fff;
 -moz-animation: glow 1s ease-in-out infinite alternate;
 animation: glow 1s ease-in-out infinite alternate;
 	
+}
+
+
+.pcontainer {
+text-align: left; 
+margin-right: 600px; 
+text-indent: 20px;
 }

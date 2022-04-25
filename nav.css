@@ -47,9 +47,12 @@ bottom: 30px;
 }
 
 .aboutbody {
+display: flex;
+flex-direction: column;
 border: solid;
 position: relative;
-height: 400px;
+height: 30%;
+width: 100%;
 	
 }
 
@@ -74,6 +77,11 @@ height: 400px;
 	border: solid;
 	position: relative;
 	bottom: -30px;
+}
+
+
+.nav > li:hover {
+	background-color: silver;
 }
 
 .header > h1 {
@@ -135,4 +143,56 @@ height: 400px;
   margin-left: 1px;
   text-align: left;
   background-color: #ffbf00;
+}
+
+
+
+
+.reflection {
+	display:flex; 
+	
+}
+
+
+
+
+@media all and (max-width: 500px) {
+	.footer{
+		
+		color:blue
+	}
+	
+	
+	.nav > li {
+	display: block;
+	color: gold;
+	font-size: 15px;
+	padding: 8px;
+	margin-right: 20px;
+	font-family: georgia;
+	color: #f2ff00;
+	border: solid;
+	position: relative;
+	bottom: -30px;
+	}
+	
+	.nav > li:hover {
+		background-color: silver;
+	}
+	
+	.reflection{
+		
+		flex-direction: column; 
+	}
+	
+	.pcontainer1{
+		
+		flex-direction: column;
+	}
+	
+	.pcontainer2{
+		
+		flex-direction: column;
+	}
+	
 }

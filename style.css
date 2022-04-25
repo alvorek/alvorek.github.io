@@ -1,0 +1,77 @@
+body {
+  background-color: #aab5aa;
+}
+
+
+
+.Opener {
+  color: #f2ff00;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.Opener:hover {
+
+
+color: #fff;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+-moz-animation: glow 1s ease-in-out infinite alternate;
+animation: glow 1s ease-in-out infinite alternate;
+	
+}
+
+
+.pcontainer {
+	flex:3;
+}
+
+.imagecontainer {
+	flex:1;
+	width: auto;
+	height: auto;
+	
+}
+
+
+.pcontainer1 {
+	display:flex;
+	
+}
+
+.pcontainer2 {
+	display:flex;
+	
+}
+
+
+.pinfo1 {
+	width: 60%;
+	
+}
+
+
+.pvideo1 {
+	width: 40%;
+	
+	
+}
+
+
+.pinfo2 {
+	width: 60%;
+	
+}
+
+
+.pvideo2 {
+	width: 40%;
+	
+	
+}
+
+.icontainer1 {
+	
+	display:flex;
+	
+}

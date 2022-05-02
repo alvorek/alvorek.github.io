@@ -75,3 +75,47 @@ animation: glow 1s ease-in-out infinite alternate;
 	display:flex;
 	
 }
+
+
+
+
+}
+
+
+
+
+.onumber	{
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;/* Firefox 4 */
+    -webkit-transition: all .2s ease-in-out; /* Safari and Chrome */
+    -o-transition: all .2s ease-in-out; /* Opera */
+    -ms-transition: all .2s ease-in-out; /* Explorer 10 */
+}
+
+
+.onumber:hover {
+	transform: scale(1.5); 
+
+}
+
+
+
+.oemail	{
+	transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;/* Firefox 4 */
+    -webkit-transition: all .2s ease-in-out; /* Safari and Chrome */
+    -o-transition: all .2s ease-in-out; /* Opera */
+    -ms-transition: all .2s ease-in-out; /* Explorer 10 */
+}
+
+
+.oemail:hover {
+	transform: scale(1.5); 
+
+}
+
+
+
+
+
+

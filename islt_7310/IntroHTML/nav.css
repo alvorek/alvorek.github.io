@@ -195,4 +195,59 @@ width: 100%;
 		flex-direction: column;
 	}
 	
+	
+	.pvideo2 {
+		width: 100%;
+		
+	}
+	
+	
+	.pvideo1 {
+		width: auto;
+		background-color: green;
+		
+	}
+	
+}
+
+
+
+@media print  {
+	
+	p {
+		
+		color: black; 
+		
+		
+	}
+	
+	
+	h4 {
+		color: black;
+		
+	}
+	
+	
+	.oemail {
+		
+		display: none;
+		
+	}
+	
+	
+	.onumber {
+		
+		display: none;
+		
+	}
+	
+	
+	body
+{
+  margin: 25mm 25mm 25mm 25mm;
+  color: black;
+}
+
+
+
 }

@@ -85,16 +85,16 @@ animation: glow 1s ease-in-out infinite alternate;
 
 
 .onumber	{
-	transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;/* Firefox 4 */
-    -webkit-transition: all .2s ease-in-out; /* Safari and Chrome */
-    -o-transition: all .2s ease-in-out; /* Opera */
-    -ms-transition: all .2s ease-in-out; /* Explorer 10 */
+	transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;/* Firefox 4 */
+    -webkit-transition: all .3s ease-in-out; /* Safari and Chrome */
+    -o-transition: all .3s ease-in-out; /* Opera */
+    -ms-transition: all .3s ease-in-out; /* Explorer 10 */
 }
 
 
 .onumber:hover {
-	transform: scale(1.5); 
+	transform: scale(2.0); 
 
 }
 
@@ -110,7 +110,7 @@ animation: glow 1s ease-in-out infinite alternate;
 
 
 .oemail:hover {
-	transform: scale(1.5); 
+	transform: scale(2.0); 
 
 }
 

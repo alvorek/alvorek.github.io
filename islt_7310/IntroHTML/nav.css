@@ -17,6 +17,14 @@
 	
 }
 
+
+.imagecontainer {
+	flex:1;
+	width: auto;
+	height: auto;
+	
+}
+
 .about > h2 {
 	position: relative;
 	bottom: 160px;
@@ -28,6 +36,7 @@
 	background-color: #ffbf00;
 	padding: 20px 20px;
 	font-size: 28px;
+	margin-top: 0px;
 	
 }
 
@@ -43,6 +52,7 @@ text-align: center;
 padding: 1px 1px 1px 1px;
 position: relative;
 bottom: 30px;
+height: 225px;
 	
 }
 
@@ -254,6 +264,15 @@ tr:nth-child(4) {
 	.reflection{
 		
 		flex-direction: column; 
+	}
+	
+	
+	.reflection > img {
+		
+		width: auto;
+		background-color: green;
+		
+		
 	}
 	
 	.pcontainer1{
